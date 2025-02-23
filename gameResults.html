@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Savvy Trivia - Game Results</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-video">
+        <video src="/assets/lines_animation.mp4" autoplay muted loop></video>
+    </div>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Save Your Score!</h2>
+                <input type="text" name="name" id="username"
+                placeholder="Enter Name Here">
+                <button class="btn" id="saveScoreBtn" type="submit"
+                onclick="saveHighScore(event)" disabled>Save</button>
+            </form>
+            <a href="/category.html" class="btn">Play Again</a>
+            <a href="/" class="btn">Main Menu</a>
+        </div>
+    </div>
+    <script src="gameResults.js"></script>
+</body>
+</html>

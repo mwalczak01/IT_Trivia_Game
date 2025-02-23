@@ -1,0 +1,24 @@
+.category-btn {
+    font-size: 2.4rem;
+    padding: 1rem;
+    width: 50rem;
+    text-align: center;
+    margin: 2rem 2rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgb(34, 255, 0) 0%, rgb(153, 0, 255) 100%);
+    border-radius: 20px;
+}
+
+.category-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 2rem 0 rgb(228, 244, 8);
+    transition: transform 100ms;
+    transform: scale(1.1);
+}
+
+.category-text {
+    color: rgb(0, 106, 255);
+    font-size: 50px;
+    margin-bottom: 4rem;
+}
